@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+/*
+  author:Adnan Habib;
+  mail:mdhabib7679@gmail.com;
+
+*/
+
+/*
+
+====Index====
+1.Header
+2.HOME        
+3.HOW IT WORKS
+4.DISCOVER A PROJECT
+5. BLOG
+6.FIND OUT MORE
+9.footer
+
+*/
+/*---------------------------Global css--------------------------*/
+h3 {
+    color: #515151;
+    font-size: 24px;
+    font-weight: 400;
+}
+h5{
+    color: #5b5c5d;
+    font-size: 17px;
+    font-weight: 300;
+    margin-right: 92px;
+    margin-bottom: 26px;
+}
+h6 {
+    font-size: 13px;
+    color: #9d9d9d;
+    margin-top: 15px;
+    margin-right: 110px;
+}
+b{
+    font-size: 15px;
+    color: #9d9d9d;
+    font-weight: 400;
+
+}
+span {
+    border-bottom: 2px solid#97897b4f;
+    width: 87%;
+    display: block;
+    margin-bottom: 20px; 
+    margin-top: 20px;
+
+
+}
+i.fa.fa-play {
+    color: #add136;
+    padding: 0px 12px;
+}
+h4 {
+    color:#484848 ;
+    font-size:17px ;
+    margin-top: 45px;
+    margin-right: 110px;
+
+}
+
+.custoimise-btn {
+    background: #26a6d1;
+    color: white;
+    padding: 5px 14px;
+    border-radius: 7px;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    margin-right: 64px;
+    margin-top: -48px;
+    position: relative;
+}
+/*--------------navigation section-------------------*/
+
+.fixed-top {
+    background: #ffffff;
+   position: relative;
+
+}
+.nav-link {
+    color: #989898;
+    font-size: 12.2px;
+}
+
+/*-------------------------hero section-----------------------------*/
+.banner{
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center top;
+}
+.banner-content h1 {
+    color: white;
+    font-size: 49px;
+    text-align: center;
+    margin-top: 117px;
+    font-weight: 400;
+}
+.banner-content p {
+    margin-top: 19px;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 39px;
+}
+.banner-btn {
+    border: none;
+    margin: 0 auto;
+    display: block;
+    background: #99c50a;
+    color: white;
+    border-radius: 9px;
+    padding: 15px 35px;
+    margin-bottom: 120px;
+
+}
+/*---------------------works details section-------------------------------*/
+.works-detail{
+    width: 100%;
+    float: left;
+    padding: 70px 0px;
+    text-align: center;
+}
+.content-one h2 {
+    font-size: 31px;
+    margin: 40px 0px 48px 0px;
+}
+.works-content h6 {
+    color: #acacac;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+/* ------------------------- discover-project section------------------------    */
+.discover-projectbg{
+    width: 100%;
+    float: left;
+    background: #e2f8ff;
+    padding: 27px 0px;
+}
+.Properties-btn {
+    color: white;
+    background: #26a6d1;
+    border-radius: 6px;
+    border: none;
+    padding: 9px 18px;
+}
+.Buyers-btn {
+    background: #add136;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 9px 18px;
+}
+
+/*-----------------------------Featured Projects section-----------------------*/
+.featured-projects{
+    width: 100%;
+    float: left;
+    padding: 45px 0px;
+}
+.Featured-content h6 {
+    color: #8f8f8f;
+    margin-top: 9px;
+    margin-right: 19px;
+    font-size: 17px;
+}
+
+.featured-btn {
+    color: #8f8f8f;
+    background: transparent;
+    border-radius: 8px;
+    padding: 7px 20px;
+    margin: 0 auto;
+    display: block;
+}
+.image-center{
+    margin-top: 46px;
+}
+
+.main-content{
+    text-align: center;
+}
+
+/*------------------------FIND OUT section---------------------------*/
+.image-logo{
+    padding: 35px 0px;
+}
+
+/*-------------------------------footer section two-------------------------------------*/
+
+footer{
+    padding: 27px 0px;
+}
+.footer-content {
+    font-size: 13px;
+    text-align: center;
+    color:#717171;
+}
+.border{
+    border-bottom: 2px solid#97897b4f;
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+/*-------------------media Query---------------------*/
+/*----------------mobile device----------------------*/
+@media (min-width: 320px) and (max-width: 576px){
+	i.fa.fa-bars {
+    margin-left: 12px;
+    color: red;
+}
+.navbar-toggler:hover, .navbar-toggler:focus {
+    text-decoration: none;
+    color: red;
+}
+	/*hero section*/
+    .banner-content h1 {
+    font-size: 22px;
+    margin-top: 44px;
+}
+.banner-btn {
+    padding: 10px 30px;
+    margin-bottom: 41px;
+}
+/*----------------------- works-detail --------------------------*/
+	.content-one h2 {
+    font-size: 15px;
+    margin: 18px 0px -15px 0px;
+}
+.works-detail {
+    padding: 40px 0px;
+}
+.works-content h6 {
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+}
+    /*  discover-project section    */
+.discover-projectbg{
+   text-align: center;
+}
+h5 {
+    margin-right: 11px;
+    text-align: justify;
+}
+.Properties-btn {
+    margin-bottom: 29px;
+}
+
+
+
+/* Featured Projects*/
+.image-center {
+    margin-top: 30px;
+    text-align: center;
+}
+h4 {
+
+    margin-top: 25px;
+    margin-right: 0px;
+}
+h6 {
+    margin-right: 0px;
+}
+.custoimise-btn {
+    margin: 0 auto;
+    display: block;
+    margin-top: -47px;
+}
+span {
+   
+    margin: 0 auto;
+}
+/*Our Team section*/
+
+
+/* Form two section*/
+	
+/*footer section*/
+.image-cut {
+    width: 45%;
+    padding: 12px;
+    margin: 0 auto;
+    display: block;
+}
+.image-logo {
+    padding: 25px 0px;
+}
+
+}
+
+
+ /*----------------------------small device-------------------------------*/
+
+@media (min-width: 576.01px) and (max-width:768px){
+	
+	/*hero section*/
+	.banner-content h1 {
+    font-size: 29px;
+    margin-top: 56px;
+}
+.banner-btn {
+    padding: 13px 33px;
+    margin-bottom: 56px;
+}
+/* works details section */
+	.content-one h2 {
+    font-size: 27px;
+    margin: 29px 0px -15px 0px;
+}
+.works-detail {
+    padding: 39px 0px;
+}
+.works-content h6 {
+    font-size: 15px;
+    line-height: 29px;
+}
+		 /* discover-project section    */
+	.discover-projectbg{
+   text-align: center;
+}
+h5 {
+    margin-right: 0px;
+    text-align: center;
+}
+.Properties-btn {
+    margin-bottom: 29px;
+}
+	/* Featured Projects section*/
+	.image-center {
+    text-align: center;
+}
+.custoimise-btn {
+   
+    margin-right: 117px;
+}
+h4 {
+
+    margin-right: 0px;
+}
+h6 {
+    font-size: 13px;
+ margin-right: 17px;
+}
+span {
+   
+    margin: 0 auto;
+}
+
+
+	/*footer section*/
+	
+.image-cut {
+    width: 45%;
+    padding: 12px;
+    margin: 0 auto;
+    display: block;
+}
+.image-logo {
+    padding: 25px 0px;
+}
+}
+/*----------------------------medium device-----------------------------*/
+
+@media (min-width: 768.01px) and (max-width: 992px){
+	
+	/*hero sectiom*/
+	.banner-content h1 {
+    font-size: 40px;
+    margin-top: 70px;
+}
+.banner-btn {
+    margin-bottom: 70px;
+}
+/* work details section */
+	.content-one h2 {
+    font-size: 18px;
+    margin: 35px 0px -17px 0px;
+}
+.works-content h6 {
+    font-size: 15px;
+    line-height: 28px;
+}
+	
+
+/*	discover-project section	*/
+h5 {
+    margin-right: 17px;
+}
+
+
+
+/*Featured Projects section*/
+.custoimise-btn {
+   
+    margin-right: 13px;
+}
+h4 {
+
+    margin-right: 0px;
+}
+h6 {
+    font-size: 13px;
+ margin-right: 0px;
+}
+span {
+   
+    margin: 0 auto;
+}
+
+
+/*   footer section  */
+	
+.footer-content {
+    font-size: 11px;
+}
+
+	
+} 
+/*-------------------------------large device-----------------------------------*/
+
+@media (min-width: 992.01px) and (max-width: 1140px){
+
+
+/*  discover-project section    */
+h5 {
+    margin-right: 28px;
+}
+
+	
+	/*Featured Projects section*/
+	.custoimise-btn {
+   
+    margin-right: 13px;
+}
+h4 {
+
+    margin-right: 0px;
+}
+h6 {
+    font-size: 13px;
+ margin-right: 0px;
+}
+span {
+   
+    margin: 0 auto;
+}
+
+	
+	/*  symu section   */
+	
+/* Our works section   */
+
+
+/* Our Team section   */
+
+
+
+/*  section   */
+
+
+
+
+}
